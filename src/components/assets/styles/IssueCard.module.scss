@@ -1,0 +1,26 @@
+.Card {
+	background-color: #FFF;
+	padding: 6px;
+	margin-bottom: 10px;
+	position: relative;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	.CardAvatar {
+		width: 25px;
+		height: 25px;
+	}
+
+	.CardActionsMenu {
+		position: absolute;
+		top: 2px;
+		right: 2px;
+		padding: 4px;
+	}
+}
+
+.MenuItemIcon {
+	margin-right: 10px;
+}
